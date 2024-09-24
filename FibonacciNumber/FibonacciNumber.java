@@ -11,7 +11,11 @@ public class FibonacciNumber {
         fibonacciCache = new long[n + 1];
 
         // Print the Fibonacci Number of n 
-        System.out.println("The Fibonacci Number of the number " + n + " is: " + fibonacciMemoization(n));
+        long startTime = System.nanoTime();
+        System.out.println("The Fibonacci Number of the number " + n + " is: " + fibonacci(n));
+        long endTime = System.nanoTime();
+        double duration = (endTime - startTime) / 1_000_000_000.0;
+        System.out.println("The calculation of Fibonacci Number took: " + String.format("%.7f", duration) + " seconds.");
 
         // Print the Fibonacci Sequence up to F(n)
         System.out.print("Fibonacci sequence up to F(" + n + "): ");
