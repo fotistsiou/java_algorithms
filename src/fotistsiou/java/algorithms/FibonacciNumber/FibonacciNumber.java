@@ -1,4 +1,9 @@
-public class FibonacciNumber { 
+package fotistsiou.java.algorithms.FibonacciNumber;
+
+
+import java.util.Scanner;
+
+public class FibonacciNumber {
     // Cache for storing Fibonacci numbers
     public static long[] fibonacciCache;
 
@@ -12,7 +17,7 @@ public class FibonacciNumber {
 
         // Print the Fibonacci Number of n 
         long startTime = System.nanoTime();
-        System.out.println("The Fibonacci Number of the number " + n + " is: " + fibonacci(n));
+        System.out.println("The Fibonacci Number of the number " + n + " is: " + fibonacciMemoization(n));
         long endTime = System.nanoTime();
         double duration = (endTime - startTime) / 1_000_000_000.0;
         System.out.println("The calculation of Fibonacci Number took: " + String.format("%.7f", duration) + " seconds.");
@@ -22,7 +27,7 @@ public class FibonacciNumber {
         for (int i = 0; i <= n; i++) {
             System.out.print(fibonacciMemoization(i) + " ");
         }
-        
+
         scanner.close();
     }
 

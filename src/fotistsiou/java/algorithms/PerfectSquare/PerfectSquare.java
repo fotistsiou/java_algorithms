@@ -1,7 +1,12 @@
+package fotistsiou.java.algorithms.PerfectSquare;
+
+import java.util.Scanner;
+
 public class PerfectSquare {
     public static void main(String[] args) {
         // Read an integer N from the user
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter an integer N (1 <= N <= 10000):");
         int N = scanner.nextInt(); 
         scanner.close();
 

@@ -1,3 +1,5 @@
+package fotistsiou.java.algorithms.PrimeNumbers;
+
 public class HundredthPrime {
    public static void main(String[] args) {
       int currentNumber = 2;
