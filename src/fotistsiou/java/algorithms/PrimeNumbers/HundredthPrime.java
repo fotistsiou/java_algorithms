@@ -1,5 +1,11 @@
 package fotistsiou.java.algorithms.PrimeNumbers;
 
+/**
+ * Prime Numbers
+ * -------------
+ * Make a code that displays the 100th prime number.
+ */
+
 public class HundredthPrime {
    public static void main(String[] args) {
       int currentNumber = 2;

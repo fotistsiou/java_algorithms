@@ -1,7 +1,12 @@
 package fotistsiou.java.algorithms.FibonacciNumber;
 
-
 import java.util.Scanner;
+
+/**
+ * Fibonacci Number
+ * ----------------
+ * Make a code that calculate the Fibonacci Number of a number, using memoization.
+ */
 
 public class FibonacciNumber {
     // Cache for storing Fibonacci numbers

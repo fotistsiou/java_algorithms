@@ -2,6 +2,13 @@ package fotistsiou.java.algorithms.ChineseRemainderTheorem;
 
 import java.util.Scanner;
 
+/**
+ * Chinese Remainder Theorem to guess your age
+ * -------------------------------------------
+ * - Ask the user for the remainders of dividing your age by 3, 5 and 7.
+ * - Use these remainders to predict the age of a user.
+ */
+
 public class ChineseRemainderTheorem {
 
     public static void main(String[] args) {
