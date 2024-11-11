@@ -4,3 +4,4 @@
 * Perfect Square
 * Prime Numbers
 * Reverse Array
+* Symmetric Matrix
