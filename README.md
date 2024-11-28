@@ -2,6 +2,7 @@
 * Chinese Remainder Theorem
 * Factorial Number
 * Fibonacci Number
+* Integer Bounds
 * Perfect Square
 * Prime Numbers
 * Reverse Array
