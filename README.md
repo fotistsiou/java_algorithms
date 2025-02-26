@@ -2,6 +2,7 @@
 - Chinese Remainder Theorem
 - Factorial Number
 - Fibonacci Number
+- Heron Triangle Area
 - Integer Bounds
 - Perfect Square
 - Prime Numbers
